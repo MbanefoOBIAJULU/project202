@@ -77,7 +77,7 @@ the function invocation// multiplyNumbers(2, 3, 4)
 the function name // MultiplyNumbers
 the function parameters  //(num1, num2, num3) the arguement is between the parentheses
 the function return value //when the function is called, it would return Result which is num1 * num2 * num3;
-the names of all variables in this program //result and product*/
+the names of all variables in this program //num1, num2, num3, result and product*/
 
 
 /*QUESTION 7
@@ -108,13 +108,13 @@ of a built-in function in JavaScript
 ( it is not, so this code won't work as written).
 
 
-function multiply(left, right) {
-let product = left * right; //product
-return product;
+function multiply(left, right) {  //left, right
+let product = left * right;       //product
+return product;                   // product
 }
-function getNumber(prompt) {
-return parseFloat(question(prompt));
+function getNumber(prompt) {      //prompt
+return parseFloat(question(prompt));//prompt, question
 }
 let left = getNumber('Enter the first number: '); //left
 let right = getNumber('Enter the second number: ');//right
-console.log(`${left} * ${right} = ${multiply(left, right)}`);*/ 
+console.log(`${left} * ${right} = ${multiply(left, right)}`); //left, right, multiply*/ 
