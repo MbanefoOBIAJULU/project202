@@ -14,6 +14,7 @@ while the other variable Bar that has its Value as 2 is
 a local variable because its enclosed inside the function scope
 and the console.log logs the global variable*/
 
+
 /*QUESTION 2
 In the exercises for the previous variable session,
 you wrote a dynamic greeter program named greeter.js. 
@@ -58,25 +59,25 @@ scream('Yipeee');*/
 
 
 
-/*QUESTION 6
-In the code shown below, identify the following items:
+//QUESTION 6
+//In the code shown below, identify the following items:
 
 
-the function arguments
-the function body
-the function declaration
-the function invocation
-the function name
-the function parameters
-the function return value
-the names of all variables in this program
 function multiplyNumbers(num1, num2, num3) {
   let result = num1 * num2 * num3;
   return result;
 }
 
 let product = multiplyNumbers(2, 3, 4);
-*/
+
+/*the function arguments // (num1, num2, num3) the arguement is between the parentheses
+the function body // its everything within the curly brace :{let result = num1 * num2 * num3; and return result;}.
+the function declaration // it ranges from everytjing from the function till the end of the curly brace
+the function invocation// multiplyNumbers(2, 3, 4)
+the function name // MultiplyNumbers
+the function parameters  //(num1, num2, num3) the arguement is between the parentheses
+the function return value //when the function is called, it would return Result which is num1 * num2 * num3;
+the names of all variables in this program //result and product*/
 
 
 /*QUESTION 7

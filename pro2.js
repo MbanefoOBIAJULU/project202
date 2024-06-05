@@ -1,15 +1,15 @@
-/*QUESTION 1
-What does this code log to the console? Does executing
- the foo function affect the output? Why or why not? 
-*/
-let bar = 1;
-function foo() {
-let bar = 2
+the function arguments // (num1, num2, num3) the arguement is between the parentheses
+the function body // its everything within the curly brace :{let result = num1 * num2 * num3; and return result;}.
+the function declaration // it ranges from everytjing from the function till the end of the curly brace
+the function invocation// multiplyNumbers(2, 3, 4)
+the function name // MultiplyNumbers
+the function parameters  //(num1, num2, num3) the arguement is between the parentheses
+the function return value //when the function is called, it would return Result which is num1 * num2 * num3;
+the names of all variables in this program //result and product
+
+function multiplyNumbers(num1, num2, num3) {
+  let result = num1 * num2 * num3;
+  return result;
 }
-foo();
-console.log(bar);
- /* it logs 1 to the console cause of local and global variables.
-the Variable bar which has 1 as its Value is a Global variable, 
-while the other variable Bar that has its Value as 2 is 
-a local variable because its enclosed inside the function scope
-and the console.log logs the global variable*/
+
+let product = multiplyNumbers(2, 3, 4);
