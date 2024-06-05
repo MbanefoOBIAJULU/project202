@@ -1,9 +1,7 @@
 /*QUESTION 1
 What does this code log to the console? Does executing
- the foo function affect the output? Why or why not? */
+ the foo function affect the output? Why or why not? 
 
-
-/*QUESTION 2
 let bar = 1;
 function foo() {
 let bar = 2
@@ -12,7 +10,7 @@ foo();
 console.log(bar);*/
 
 
-/*QUESTION 3
+/*QUESTION 2
 In the exercises for the previous variable session,
 you wrote a dynamic greeter program named greeter.js. 
 Add a function to this program that solicits the user's
@@ -20,20 +18,20 @@ first and last names in separate invocations; the function
 should return the appropriate name as a string. Use the
 return values to greet the user with their full name.*/
 
-/* QUESTION 4
+/* QUESTION 3
 Write a program that uses a multiply function to multiply
 two numbers and returns the result. Ask the user to enter
 the two numbers, then output the numbers and result as a simple equation.
 
 
-/* QUESTION 5
+
 $ node multiply.js
 Enter the first number: 3.141592653589793
 Enter the second number: 2.718281828459045
 3.141592653589793 * 2.718281828459045 = 8.539734222673566*/
 
 
-/*QUESTION 6
+/*QUESTION 4
 What does the following code log to the console?
 function scream(words) {
 words = words + '!!!!';
@@ -43,7 +41,7 @@ console.log(words);
 scream('Yipeee');*/
 
 
- /*QUESTION 7
+ /*QUESTION 5
  What does the following code log to the console?
 
 
@@ -56,6 +54,7 @@ scream('Yipeee');*/
 
 
 
+/*QUESTION 6
 In the code shown below, identify the following items:
 
 
@@ -73,9 +72,10 @@ function multiplyNumbers(num1, num2, num3) {
 }
 
 let product = multiplyNumbers(2, 3, 4);
+*/
 
 
-
+/*QUESTION 7
 Without running the following code, what do you think it will output?
 
 
@@ -83,7 +83,7 @@ function foo(bar, qux) {
 console.log(bar);
 console.log(qux);
 }
-foo('Hello');
+foo('Hello');*/
 
  /*QUESTION 8
  Without running the following code, what do you think it will output?
