@@ -81,14 +81,14 @@ the names of all variables in this program //result and product*/
 
 
 /*QUESTION 7
-Without running the following code, what do you think it will output?
+Without running the following code, what do you think it will output?*/
 
 
 function foo(bar, qux) {
 console.log(bar);
 console.log(qux);
 }
-foo('Hello');*/
+foo('Hello');
 
  /*QUESTION 8
  Without running the following code, what do you think it will output?
