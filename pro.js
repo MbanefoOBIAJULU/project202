@@ -12,14 +12,18 @@ foo();
 console.log(bar);*/
 
 
-/*In the exercises for the previous variable session,
- you wrote a dynamic greeter program named greeter.js. 
- Add a function to this program that solicits the user's
-  first and last names in separate invocations; the function
-   should return the appropriate name as a string. Use the
-    return values to greet the user with their full name.*/
+/*UESTION 3
+In the exercises for the previous variable session,
+you wrote a dynamic greeter program named greeter.js. 
+Add a function to this program that solicits the user's
+first and last names in separate invocations; the function
+should return the appropriate name as a string. Use the
+return values to greet the user with their full name.*/
 
-Write a program that uses a multiply function to multiply two numbers and returns the result. Ask the user to enter the two numbers, then output the numbers and result as a simple equation.
+/* QUESTION 4
+Write a program that uses a multiply function to multiply
+two numbers and returns the result. Ask the user to enter
+the two numbers, then output the numbers and result as a simple equation.
 
 
 $ node multiply.js
