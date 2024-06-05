@@ -88,17 +88,18 @@ function foo(bar, qux) {
 console.log(bar);
 console.log(qux);
 }
-foo('Hello');
+foo('Hello'); // Hello, Undefined
 
  /*QUESTION 8
- Without running the following code, what do you think it will output?
+ Without running the following code, what do you think it will output?*/
 
 
 function foo(bar, qux) {
 console.log(bar);
 console.log(qux);
 }
-foo(42, 3.1415, 2.718);*/
+foo(42, 3.1415, 2.718); // 42, 3.1415
+//because there are only 2 arguments given to the function
 
 /* QUESTION 9
 Identify all of the variables named on each line of the
@@ -108,12 +109,12 @@ of a built-in function in JavaScript
 
 
 function multiply(left, right) {
-let product = left * right;
+let product = left * right; //product
 return product;
 }
 function getNumber(prompt) {
 return parseFloat(question(prompt));
 }
-let left = getNumber('Enter the first number: ');
-let right = getNumber('Enter the second number: ');
+let left = getNumber('Enter the first number: '); //left
+let right = getNumber('Enter the second number: ');//right
 console.log(`${left} * ${right} = ${multiply(left, right)}`);*/ 
