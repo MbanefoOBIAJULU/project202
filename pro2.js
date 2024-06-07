@@ -21,4 +21,31 @@ you wrote a dynamic greeter program named greeter.js.
 Add a function to this program that solicits the user's
 first and last names in separate invocations; the function
 should return the appropriate name as a string. Use the
-return values to greet the user with their full name.*/
+return values to greet the user with their full name.
+
+*/
+function getfullName(){
+    let firstName = prompt("whats your first name")
+    let lastName = prompt("whats your Last name")
+    return firstName+ " " + lastName;
+    }
+
+function greetUser(){
+    let fullName = getfullName()
+    alert("Good Evening, " + fullName + "!");
+}
+greetUser();
+
+/* function getFullName() {
+    var firstName = prompt("Enter your first name:");
+    var lastName = prompt("Enter your last name:");
+    return firstName + " " + lastName;
+}
+
+function greetUser() {
+    var fullName = getFullName();
+    alert("Good Evening, " + fullName + "!");
+}
+
+greetUser();
+*/

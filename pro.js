@@ -22,6 +22,18 @@ Add a function to this program that solicits the user's
 first and last names in separate invocations; the function
 should return the appropriate name as a string. Use the
 return values to greet the user with their full name.*/
+function getfullName(){
+  let firstName = prompt("whats your first name")
+  let lastName = prompt("whats your Last name")
+  return firstName+ " " + lastName;
+  }
+
+function greetUser(){
+  let fullName = getfullName()
+  alert("Good Evening, " + fullName + "!");
+}
+greetUser();
+
 
 /* QUESTION 3
 Write a program that uses a multiply function to multiply
