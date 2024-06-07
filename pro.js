@@ -82,14 +82,15 @@ function multiplyNumbers(num1, num2, num3) {
 
 let product = multiplyNumbers(2, 3, 4);
 
-/*the function arguments // 
-the function body // 
-the function declaration // 
-the function invocation// 
-the function name // 
-the function parameters  //
-the function return value //
-the names of all variables in this program /*/
+/*the function arguments // (num1, num2, num3) the arguement is between the parentheses
+the function body // its everything within the curly brace :{let result = num1 * num2 * num3; and return result;}.
+the function declaration // it ranges from everytjing from the function till the end of the curly brace
+the function invocation// multiplyNumbers(2, 3, 4)
+the function name // MultiplyNumbers
+the function parameters  //(num1, num2, num3) the arguement is between the parentheses
+the function return value //when the function is called, it would return Result which is num1 * num2 * num3;
+the names of all variables in this program //num1, num2, num3, result and product*/
+
 
 /*QUESTION 7
 Without running the following code, what do you think it will output?*/
