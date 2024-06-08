@@ -25,7 +25,8 @@ return values to greet the user with their full name.*/
 function getfullName(){
   let firstName = prompt("whats your first name")
   let lastName = prompt("whats your Last name")
-  return firstName+ " " + lastName;
+  let userName = firstName+ " " + lastName;
+  return userName
   }
 
 function greetUser(){
