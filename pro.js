@@ -28,7 +28,6 @@ function getfullName(){
   let userName = firstName+ " " + lastName;
   return userName
   }
-
 function greetUser(){
   let fullName = getfullName()
   console.log("Good Evening, " + fullName + "!");
@@ -41,12 +40,21 @@ Write a program that uses a multiply function to multiply
 two numbers and returns the result. Ask the user to enter
 the two numbers, then output the numbers and result as a simple equation.
 
-
-
 $ node multiply.js
 Enter the first number: 3.141592653589793
 Enter the second number: 2.718281828459045
 3.141592653589793 * 2.718281828459045 = 8.539734222673566*/
+
+function multiply(x, y) {
+  return x * y;
+}
+function main() {
+let num1 = parseFloat(prompt("Enter the first number: "));
+let num2 = parseFloat(prompt("Enter the second number: "));
+let result = multiply(num1, num2);
+console.log(num1 + " * " + num2 + " = " + result);
+}
+main();
 
 
 /*QUESTION 4
