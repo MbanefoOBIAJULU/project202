@@ -31,7 +31,7 @@ function getfullName(){
 
 function greetUser(){
   let fullName = getfullName()
-  alert("Good Evening, " + fullName + "!");
+  console.log("Good Evening, " + fullName + "!");
 }
 greetUser();
 
